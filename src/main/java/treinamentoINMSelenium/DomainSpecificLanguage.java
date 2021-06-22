@@ -19,5 +19,14 @@ public class DomainSpecificLanguage {
         driver.findElement(By.name(idCamp)).sendKeys(texto);
     }
 
+    public void escreverByClass(String className) {
+        driver.findElement(By.className(className)).click();
+    }
+
+    public void escreverByXPath(String xpath) {
+        driver.findElement(By.xpath(xpath)).click();
+    }
+
+
 
 }

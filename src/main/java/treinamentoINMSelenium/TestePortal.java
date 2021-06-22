@@ -27,7 +27,7 @@ public class TestePortal {
         driver.findElement(By.xpath("//*[@id=\"navbarSupportedContent\"]/ul/li[2]/a")).click();
 
         //Preencher Funcionario
-        driver.findElement(By.id("inputNome")).sendKeys("Jairo" + (int)(Math.random() * 10) + "Vitar");
+        driver.findElement(By.id("inputNome")).sendKeys("xzczxc" + (int)(Math.random() * 10) + "cxzdsa");
         driver.findElement(By.id("cpf")).sendKeys("725.052.470-48");
 
         WebElement element = driver.findElement(By.id("slctSexo"));
